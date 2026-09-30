@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { PAGES } from '@/content/pages';
+import { POSTS } from '@/content/posts';
 import { getSettings, telHref } from '@/lib/settings';
 import { graph, webPageSchema, breadcrumbSchema, serviceSchema, faqSchema } from '@/lib/schema';
 import { ROUTES } from '@/lib/site';
@@ -8,6 +9,7 @@ import PageHero from './PageHero';
 import Faq from './Faq';
 import CtaBand from './CtaBand';
 import Icon from './Icon';
+import RichText from './RichText';
 
 export function servicePageMetadata(key) {
   const p = PAGES[key];
@@ -48,11 +50,11 @@ export default async function ServicePage({ pageKey }) {
             {p.sections.map((sec) => (
               <section key={sec.h2}>
                 <h2>{sec.h2}</h2>
-                {sec.body?.map((t) => <p key={t}>{t}</p>)}
+                {sec.body?.map((t) => <p key={t}><RichText text={t} /></p>)}
                 {sec.bullets ? (
                   <ul className="check-list">
                     {sec.bullets.map((b) => (
-                      <li key={b}><Icon name="check" size={18} /> {b}</li>
+                      <li key={b}><Icon name="check" size={18} /> <span><RichText text={b} /></span></li>
                     ))}
                   </ul>
                 ) : null}
@@ -92,6 +94,14 @@ export default async function ServicePage({ pageKey }) {
                   <li key={k}><Link href={PAGES[k].path}>{PAGES[k].h1}</Link></li>
                 ))}
                 <li><Link href={ROUTES.blog}>Grief &amp; Healing Blog</Link></li>
+              </ul>
+            </div>
+            <div className="side-card">
+              <h2>Latest articles</h2>
+              <ul className="side-links">
+                {POSTS.slice(0, 4).map((post) => (
+                  <li key={post.slug}><Link href={`/blog/${post.slug}`}>{post.seoTitle || post.title}</Link></li>
+                ))}
               </ul>
             </div>
           </aside>

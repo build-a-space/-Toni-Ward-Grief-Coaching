@@ -8,7 +8,7 @@ import Icon from '@/components/Icon';
 
 const title = 'Contact Toni Ward | Grief Coaching in Berlin, MD';
 const description =
-  'Contact Toni Ward for compassionate grief coaching, widow support and personalized guidance in Berlin, MD. Call, email or send a message to book a free consultation.';
+  'Contact Toni Ward for grief coaching and widow support in Berlin, MD. Call, email or send a message to book a free 30-minute consultation.';
 
 export const metadata = {
   title: { absolute: title },

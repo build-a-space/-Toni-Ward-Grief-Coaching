@@ -1,3 +1,5 @@
+import RichText from './RichText';
+
 export default function Faq({ faqs, title = 'Frequently Asked Questions' }) {
   if (!faqs?.length) return null;
   return (
@@ -8,7 +10,7 @@ export default function Faq({ faqs, title = 'Frequently Asked Questions' }) {
           {faqs.map((f, i) => (
             <details key={f.q} open={i === 0}>
               <summary>{f.q}</summary>
-              <p>{f.a}</p>
+              <p><RichText text={f.a} /></p>
             </details>
           ))}
         </div>

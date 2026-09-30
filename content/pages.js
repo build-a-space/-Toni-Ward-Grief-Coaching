@@ -17,24 +17,24 @@ export const PAGES = {
       {
         h2: 'What grief coaching looks like',
         body: [
-          'Grief coaching is a forward-looking, supportive partnership. Together we make space for the full weight of your loss while also gently exploring what healing, meaning and purpose can look like for you now.',
-          'Sessions are available in person at Toni’s Berlin office or through secure online video, so you can receive support from anywhere in Maryland and beyond.',
+          '**Grief coaching** is a forward-looking, supportive partnership. Together we make space for the full weight of your loss while also gently exploring what healing, meaning and purpose can look like for you now.',
+          'Sessions are available in person at Toni’s **Berlin, MD** office or through secure **online grief coaching** by video, so you can receive support from anywhere in Maryland and beyond. Prefer a private, one-on-one format? Learn about [individual grief support](/individual-grief-counseling-support-in-berlin-md).',
         ],
       },
       {
         h2: 'The B.R.E.A.T.H.E. approach',
         body: [
-          'Toni is a certified grief coach who specializes in the B.R.E.A.T.H.E. model — a compassionate framework that helps you slow down, understand what you are carrying and take manageable steps toward a life that still holds hope.',
+          'Toni is a **certified grief coach** who specializes in the **B.R.E.A.T.H.E. model** — a compassionate framework that helps you slow down, understand what you are carrying and take manageable steps toward a life that still holds hope.',
           'In your first session Toni will walk you through the approach and, together, you will outline your needs and goals for the healing journey ahead.',
         ],
       },
       {
         h2: 'Who grief coaching can help',
         bullets: [
-          'Anyone grieving the death of a spouse, partner, parent, child, sibling or friend',
+          'Anyone grieving the death of a spouse ([widow support](/widow-loss-counseling-support-in-berlin-md)), partner, parent, child, sibling or friend',
           'People who feel “stuck” months or years after a loss',
-          'Those navigating anniversaries, holidays and other difficult days',
-          'Anyone who wants faith-informed, compassionate support',
+          'Those navigating anniversaries, [holidays](/blog/surviving-the-holidays-after-loss) and other difficult days',
+          'Anyone who wants [faith-informed, compassionate support](/blog/faith-based-bereavement-support-guide)',
           'People rebuilding identity, routines and purpose after a loss',
         ],
       },
@@ -50,7 +50,7 @@ export const PAGES = {
       },
       {
         q: 'How do I get started?',
-        a: 'Start with a complimentary 30-minute consultation call. You can call, email or send a message through the contact page to schedule a time.',
+        a: 'Start with a **complimentary 30-minute consultation** call. You can call, email or send a message through the [contact page](/contact-toni-ward-for-grief-coaching-support) to schedule a time.',
       },
     ],
     related: ['individual', 'widow', 'speaking'],
@@ -70,7 +70,7 @@ export const PAGES = {
       {
         h2: 'Private, confidential sessions',
         body: [
-          'Meet in person at Toni’s office in Berlin, MD, or connect by secure video from the comfort of home. Every session is confidential and centered entirely on you — your story, your loved one and what you need right now.',
+          'Meet in person at Toni’s office in **Berlin, MD**, or connect by **secure online video** from the comfort of home. Every **one-on-one grief support** session is confidential and centered entirely on you — your story, your loved one and what you need right now.',
         ],
       },
       {
@@ -78,7 +78,7 @@ export const PAGES = {
         bullets: [
           'Processing difficult emotions such as guilt, anger, regret and fear',
           'Creating healthy daily rhythms when everything feels upside down',
-          'Preparing for anniversaries, birthdays and holidays',
+          'Preparing for anniversaries, birthdays and [holidays](/blog/surviving-the-holidays-after-loss)',
           'Honoring your loved one through meaningful rituals and legacy projects',
           'Rediscovering hope, identity and purpose',
         ],
@@ -86,7 +86,7 @@ export const PAGES = {
       {
         h2: 'A coach who understands',
         body: [
-          'After losing her husband suddenly in 2016, Toni dedicated her life to helping others navigate grief. She has supported grieving people in funeral homes, hospices and churches and brings that lived experience — along with formal training — to every session.',
+          'After losing her husband suddenly in 2016, Toni — now a **certified grief coach** — dedicated her life to helping others navigate grief. She has supported grieving people in funeral homes, hospices and churches and brings that lived experience — along with formal training — to every session. Read [how to find a grief coach](/blog/how-to-find-a-grief-coach-a-compassionate-guide-to-healing) who fits you.',
         ],
       },
     ],
@@ -107,7 +107,7 @@ export const PAGES = {
     path: ROUTES.widow,
     metaTitle: 'Widow Support in Berlin, MD | Toni Ward Grief Coaching',
     description:
-      'Compassionate widow and widower support in Berlin, MD — personalized coaching, online video sessions, workshops and speaking to help you heal and rebuild after losing a spouse.',
+      'Widow and widower support in Berlin, MD — personalized coaching and online sessions to help you heal and rebuild after losing a spouse.',
     eyebrow: 'Widow & Widower Coaching',
     h1: 'Widow Support in Berlin, MD',
     lead:
@@ -117,13 +117,13 @@ export const PAGES = {
       {
         h2: 'Specialized support after the loss of a spouse',
         body: [
-          'Widow coaching focuses on the unique challenges that follow the death of a husband, wife or partner: rebuilding identity, navigating new responsibilities, parenting through grief and finding hope for the future.',
+          '**Widow coaching** focuses on the unique challenges that follow the death of a husband, wife or partner: rebuilding identity, navigating new responsibilities, parenting through grief and finding hope for the future. It builds on Toni’s broader [grief coaching approach](/personalized-grief-coaching-support-berlin-md).',
         ],
       },
       {
         h2: 'Virtual widow coaching sessions',
         body: [
-          'Secure video sessions give you personalized guidance with the flexibility and comfort of joining from home — available to clients in Maryland and beyond.',
+          'Secure **virtual widow coaching** sessions give you personalized guidance with the flexibility and comfort of joining from home — available to clients in Maryland and beyond.',
         ],
       },
       {
@@ -144,7 +144,7 @@ export const PAGES = {
       },
       {
         q: 'Do you work with widowers too?',
-        a: 'Yes. Toni supports anyone who has lost a spouse or life partner.',
+        a: 'Yes. Toni offers **widow and widower support** for anyone who has lost a spouse or life partner.',
       },
     ],
     related: ['griefCoaching', 'individual', 'membership'],
@@ -164,18 +164,18 @@ export const PAGES = {
       {
         h2: 'Popular workshop topics',
         bullets: [
-          'Surviving the holidays after a loss',
+          '[Surviving the holidays after a loss](/blog/surviving-the-holidays-after-loss)',
           'Guilt and regret in grief',
           'Anniversaries and other difficult days',
-          'Rebuilding identity after the loss of a spouse',
-          'Faith and grief: where they meet',
+          'Rebuilding identity after the loss of a spouse ([widow support](/widow-loss-counseling-support-in-berlin-md))',
+          '[Faith and grief: where they meet](/blog/faith-based-bereavement-support-guide)',
           'How to support a grieving friend, employee or church member',
         ],
       },
       {
         h2: 'Who books Toni',
         body: [
-          'Churches and ministries, hospices, funeral homes, widow and bereavement groups, workplaces, schools and community organizations. Sessions can be delivered in person or as a live webinar.',
+          'Churches and ministries, hospices, funeral homes, widow and bereavement groups, workplaces, schools and community organizations. **Grief workshops** and **public speaking** sessions can be delivered in person or as a live webinar.',
         ],
       },
     ],
@@ -196,7 +196,7 @@ export const PAGES = {
     path: ROUTES.resources,
     metaTitle: 'Grief Support Resources | Toni Ward Grief Coaching',
     description:
-      'Grief recovery tools and community resources from Toni Ward Grief Coaching — coping strategies, support groups, reading and crisis contacts for Berlin, MD and beyond.',
+      'Grief recovery tools and community resources — coping strategies, support groups and crisis contacts for Berlin, MD and beyond.',
     eyebrow: 'Resources',
     h1: 'Grief Recovery Tools & Community Resources',
     lead:
@@ -206,9 +206,9 @@ export const PAGES = {
       {
         h2: 'Everyday grief tools',
         bullets: [
-          'Journaling prompts to put feelings into words',
+          'Journaling prompts to put feelings into words — see [10 steps to emotional healing](/blog/emotional-healing-through-grief-guide)',
           'Breathing and grounding practices for overwhelming moments',
-          'Creating a “hard days” plan for anniversaries and holidays',
+          'Creating a “hard days” plan for anniversaries and [holidays](/blog/surviving-the-holidays-after-loss)',
           'Simple rituals to honor and remember your loved one',
           'Gentle routines for sleep, nutrition and movement',
         ],
@@ -216,20 +216,20 @@ export const PAGES = {
       {
         h2: 'Community support',
         body: [
-          'Local churches, hospice bereavement programs and peer support groups for widowed people can offer connection with others who understand. Toni is happy to point you toward options near Berlin, Ocean City and Salisbury.',
+          'Local churches, hospice **bereavement programs** and peer **grief support groups** for widowed people can offer connection with others who understand. Toni is happy to point you toward options near Berlin, Ocean City and Salisbury, or compare [faith-based grief recovery programs](/blog/discovering-the-best-faith-based-grief-recovery-programs-a-compassionate-comparison).',
         ],
       },
       {
         h2: 'If you are in crisis',
         body: [
-          'Grief coaching is not an emergency service. If you are thinking about harming yourself, call or text 988 (Suicide & Crisis Lifeline) or call 911 right away.',
+          'Grief coaching is not an emergency service. If you are thinking about harming yourself, call or text **988** (Suicide & Crisis Lifeline) or call 911 right away.',
         ],
       },
     ],
     faqs: [
       {
         q: 'Where can I find more videos from Toni?',
-        a: 'Visit the Videos & Resources page for Toni’s YouTube content, or join the membership area for exclusive sessions.',
+        a: 'Visit the [Videos & Resources](/toni-ward-grief-coaching-videos-and-resources) page for Toni’s YouTube content, or join the [membership area](/exclusive-member-content-grief-support-videos) for exclusive sessions.',
       },
     ],
     related: ['videos', 'membership', 'griefCoaching'],
@@ -251,9 +251,9 @@ export const PAGES = {
         h2: 'What you will find',
         bullets: [
           'Insights on grief and the healing process',
-          'Encouragement for widows and widowers',
-          'Tips for navigating holidays and anniversaries',
-          'Faith-based reflections on loss and hope',
+          'Encouragement for [widows and widowers](/widow-loss-counseling-support-in-berlin-md)',
+          'Tips for navigating [holidays and anniversaries](/blog/surviving-the-holidays-after-loss)',
+          '[Faith-based reflections](/blog/faith-based-bereavement-support-guide) on loss and hope',
         ],
       },
     ],
@@ -275,9 +275,9 @@ export const PAGES = {
       {
         h2: 'Inside the membership',
         bullets: [
-          'Exclusive video sessions with Toni',
+          'Exclusive **grief support videos** with Toni',
           'Practical coping strategies and worksheets',
-          'Guided meditation and breathing practices',
+          'Guided meditation and breathing practices inspired by the **B.R.E.A.T.H.E. model**',
           'Insightful talks on widowhood, faith and rebuilding',
           'Community encouragement from people who understand',
         ],
@@ -285,7 +285,7 @@ export const PAGES = {
       {
         h2: 'How to join',
         body: [
-          'Reach out through the contact page or call to learn about membership options and receive your access details.',
+          'Reach out through the [contact page](/contact-toni-ward-for-grief-coaching-support) or call to learn about membership options and receive your access details. Looking for one-on-one help instead? Explore [personalized grief coaching](/personalized-grief-coaching-support-berlin-md).',
         ],
       },
     ],
@@ -324,18 +324,18 @@ export const SERVICE_CARDS = [
 export const HOME_FAQS = [
   {
     q: 'What is grief coaching?',
-    a: 'Grief coaching is a compassionate, forward-focused partnership that helps you process loss, honor your loved one and take gentle steps toward healing, meaning and purpose.',
+    a: '**Grief coaching** is a compassionate, forward-focused partnership that helps you process loss, honor your loved one and take gentle steps toward healing, meaning and purpose.',
   },
   {
     q: 'Where are sessions held?',
-    a: 'Confidential in-person sessions are held at Toni’s office in Berlin, MD. Secure online video sessions are available anywhere in Maryland and beyond.',
+    a: 'Confidential in-person sessions are held at Toni’s office in **Berlin, MD**. Secure [online video sessions](/individual-grief-counseling-support-in-berlin-md) are available anywhere in Maryland and beyond.',
   },
   {
     q: 'Is there a free consultation?',
-    a: 'Yes — a complimentary 30-minute consultation call lets you share what you are going through and decide whether coaching is right for you.',
+    a: 'Yes — a **complimentary 30-minute consultation** call lets you share what you are going through and decide whether coaching is right for you.',
   },
   {
     q: 'Is your approach faith-based?',
-    a: 'Toni holds a degree in Christian studies and welcomes faith into the conversation for clients who want it, while supporting people of every background with respect.',
+    a: 'Toni holds a degree in Christian studies and welcomes faith into the conversation for clients who want it, while supporting people of every background with respect. Read the [faith-based bereavement guide](/blog/faith-based-bereavement-support-guide).',
   },
 ];

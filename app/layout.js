@@ -8,9 +8,9 @@ const sans = Lato({ subsets: ['latin'], weight: ['400', '700'], variable: '--fon
 
 export async function generateMetadata() {
   const s = await getSettings();
-  const title = `Home | ${s.businessName} | ${s.tagline}`;
+  const title = `${s.businessName} | Certified Grief Coach in Berlin, MD`;
   const description =
-    'Toni Ward Grief Coaching in Berlin, MD offers compassionate grief coaching, widow support, online sessions, workshops and speaking. Book a free 30-minute consultation.';
+    'Compassionate grief coaching, widow support and online sessions in Berlin, MD with certified grief coach Toni Ward. Book a free 30-minute consultation.';
   const ogImage = s.heroImageUrl || s.headshotUrl || s.logoUrl;
   return {
     metadataBase: new URL(SITE_URL),

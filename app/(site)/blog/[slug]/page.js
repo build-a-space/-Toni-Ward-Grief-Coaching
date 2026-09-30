@@ -7,6 +7,7 @@ import { graph, webPageSchema, breadcrumbSchema, blogPostingSchema } from '@/lib
 import JsonLd from '@/components/JsonLd';
 import PageHero from '@/components/PageHero';
 import CtaBand from '@/components/CtaBand';
+import RichText from '@/components/RichText';
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -18,8 +19,9 @@ export async function generateMetadata({ params }) {
   const post = getPost(slug);
   if (!post) return {};
   const path = `/blog/${post.slug}`;
+  const seoTitle = `${post.seoTitle || post.title} | Toni Ward Grief Coaching`;
   return {
-    title: { absolute: post.title },
+    title: { absolute: seoTitle.length <= 65 ? seoTitle : post.seoTitle || post.title },
     description: post.description,
     keywords: post.keywords,
     alternates: { canonical: path },
@@ -31,9 +33,9 @@ const fmt = (d) => new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { year
 
 function Block({ b }) {
   if (b.h2) return <h2>{b.h2}</h2>;
-  if (b.ul) return <ul>{b.ul.map((li) => <li key={li}>{li}</li>)}</ul>;
+  if (b.ul) return <ul>{b.ul.map((li) => <li key={li}><RichText text={li} /></li>)}</ul>;
   if (b.quote) return <blockquote>{b.quote}</blockquote>;
-  return <p>{b.p}</p>;
+  return <p><RichText text={b.p} /></p>;
 }
 
 export default async function Post({ params }) {
