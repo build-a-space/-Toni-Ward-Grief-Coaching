@@ -38,11 +38,7 @@ From the dashboard you can:
 ## Deploy to Vercel
 
 1. Import this GitHub repo in Vercel (the framework is detected as Next.js automatically).
-2. In the project, go to **Storage** and connect:
-   - **Upstash for Redis** (from the Marketplace). This stores settings and messages.
-   - **Blob**. This stores uploaded logos and photos.
-
-   Both add their environment variables automatically.
+2. In the project, go to **Storage** and connect a **Blob** store. That is enough: it holds uploaded images, settings and messages. Optionally, add **Upstash for Redis** from the Marketplace for faster settings storage; when present, it is used instead of Blob for settings and messages.
 3. Under **Settings → Environment Variables**, add:
    - `ADMIN_USERNAME` (for example `toni`)
    - `ADMIN_PASSWORD` (long and unique)

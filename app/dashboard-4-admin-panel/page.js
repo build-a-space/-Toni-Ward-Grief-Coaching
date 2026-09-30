@@ -51,7 +51,7 @@ export default async function AdminPage() {
       <main className="admin-main">
         {storageMissing ? (
           <p className="admin-status err">
-            Storage isn’t connected, so changes can’t be saved. In Vercel, open this project → Storage (or Marketplace) → add “Upstash for Redis” and redeploy.
+            Storage isn’t connected, so changes can’t be saved. In Vercel, open this project → Storage → create a Blob store, then redeploy.
           </p>
         ) : null}
         {blobMissing ? (
