@@ -1,0 +1,23 @@
+{
+  "name": "toni-ward-grief-coaching",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Toni Ward Grief Coaching — SEO-optimized Next.js (Node.js) website with a private admin dashboard, built for Vercel.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.39.0",
+    "@vercel/blob": "^2.8.0",
+    "next": "^16.3.7",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "server-only": "^0.0.1"
+  }
+}
